@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+  <name>wp_hide_backend_notifications</name>
+  <version>1.0.2</version>
+  <stability>stable</stability>
+  <license uri="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</license>
+  <channel>community</channel>
+  <extends/>
+  <summary>External Backend Notifications Disabler (WebAndPeople.com)</summary>
+  <description>External Backend Notifications Disabler (WebAndPeople.com)</description>
+  <notes>External Backend Notifications Disabler (WebAndPeople.com)</notes>
+  <authors>
+    <author>
+      <name>WebAndPeople</name>
+      <user>WebAndPeople</user>
+      <email>design@webandpeople.com</email>
+    </author>
+    <author>
+      <name>y.gerassimenko</name>
+      <user>ygerassimenko</user>
+      <email>y.gerassimenko@webandpeople.com</email>
+    </author>
+  </authors>
+  <date>2011-11-11</date>
+  <time>21:12:27</time>
+  <contents>
+    <target name="mageweb">
+      <dir name="app">
+        <dir name="code">
+          <dir name="community">
+            <dir name="WP">
+              <dir name="HideBackendNotifications">
+                <dir name="Block">
+                  <file name="About.php" hash="f072e232ba42432e4ea854e4f595de60"/>
+                  <dir name="Notification">
+                    <file name="Toolbar.php" hash="66ded5e1d7c0f389f11c639a12d97cd3"/>
+                    <file name="Window.php" hash="665576d5b3371e0f194bb288e4e904ea"/>
+                  </dir>
+                </dir>
+                <dir name="Helper">
+                  <file name="Data.php" hash="5fbe91fdbbb2f8d640bd55712db372a8"/>
+                </dir>
+                <dir name="etc">
+                  <file name="config.xml" hash="1bde9c8b2f1fefb3235053ec88310034"/>
+                  <file name="system.xml" hash="6a01254ddea7ef0a17ee8b51fd43313a"/>
+                </dir>
+              </dir>
+            </dir>
+          </dir>
+        </dir>
+        <dir name="etc">
+          <dir name="modules">
+            <file name="WP_HideBackendNotifications.xml" hash="4728b884abc1275a6c7671a754c71a9c"/>
+          </dir>
+        </dir>
+      </dir>
+    </target>
+  </contents>
+  <compatible/>
+  <dependencies>
+    <required>
+      <php>
+        <min>5.2.0</min>
+        <max>6.0.0</max>
+      </php>
+    </required>
+  </dependencies>
+</package>

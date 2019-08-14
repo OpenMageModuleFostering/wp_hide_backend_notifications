@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/wp_hide_backend_notifications",
+    "type": "magento-module",
+    "license": "Creative-Commons-Attribution-3.0-Unported-License",
+    "homepage": "",
+    "description": "External Backend Notifications Disabler (WebAndPeople.com)",
+    "authors": [
+    {
+        "name": "WebAndPeople",
+        "email": "design@webandpeople.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
